@@ -1,0 +1,38 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Variables sensibles
+.env
+.env.*
+!.env.example
+
+# Airflow
+logs/
+airflow.cfg/
+airflow.db
+webserver_config.py
+
+# Données météo téléchargées et générées
+data/raw/
+data/processed/
+data/staging/
+ghcnd-stations.txt
+
+# Fichiers temporaires
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
