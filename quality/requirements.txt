@@ -1,0 +1,7 @@
+﻿# Dependances de la partie qualite des donnees (Omayma)
+-r ../requirements.txt
+numpy
+matplotlib
+scikit-learn
+prometheus-client
+great-expectations
